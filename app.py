@@ -184,13 +184,3 @@ else:
 st.markdown("---")
 st.markdown("📈 **Stock Data Fetcher** | Powered by Yahoo Finance API")
 st.caption("Data is delayed by ~15 minutes. Not for trading purposes.")
-```
-
----
-
-## File 2: `requirements.txt`
-```
-streamlit>=1.28.0
-yfinance>=0.2.28
-pandas>=2.0.0
-plotly>=5.17.0
